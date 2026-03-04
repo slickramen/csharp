@@ -1,0 +1,54 @@
+#######################################
+# .NET / C#
+#######################################
+
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS
+.idea/
+.vs/
+
+# Logs
+*.log
+
+# Environment files
+appsettings.Development.json
+appsettings.*.local.json
+
+#######################################
+# Node / React
+#######################################
+
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+*.tsbuildinfo
+
+#######################################
+# Environment variables
+#######################################
+
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+#######################################
+# OS Files
+#######################################
+
+.DS_Store
+Thumbs.db
+
+#######################################
+# VS Code
+#######################################
+
+.vscode/
